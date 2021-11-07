@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: rgb(0, 155, 153);
+}
+
+b {
+    color: rgb(0, 155, 153);
+}
+
+h1 {
+    font-size: 4.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    background-color: rgb(0, 155, 153) !important;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section {
+    text-align: center;
+}
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#section3,
+#slide1,
+#slide2 {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Defining each sectino background and styles
+* --------------------------------------- */
+#section0 {
+    background-image: url(../img/net_dark.jpg);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#section0 h1 {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#section1 {
+    background-image: url(../img/net_dark.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left1 {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+    width: 50%;
+    font-size: 3em;
+    height: 100vh;
+    background-color: rgb(0, 155, 153);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#right1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 1.5em;
+    height: 100vh;
+    padding: 10vh;
+    background-color: black;
+
+    box-shadow: -2px -2px 15px 0px #000000;
+}
+
+#section2 {
+    background-image: url(../img/machine_learning_banner.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left2 {
+    font-size: 1.5em;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+    width: 50%;
+    height: 100vh;
+    color: rgb(177, 177, 177);
+}
+
+#right2 {
+    width: 50%;
+    padding: 10vh;
+}
+
+#left4 {
+    font-size: 1.5em;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10vh;
+    width: 40%;
+    height: 100vh;
+    color: white;
+}
+
+#right4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 10vh;
+    color: white;
+}
+
+#section4 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
