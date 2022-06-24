@@ -15,8 +15,8 @@
 
     <div id="fullpage">
         <div class="section " id="section0">
-            <h1><b>Data-Centric</b> Machine</br>
-                Learning ops for</br>
+            <h1><b>Data-Centric</b> Machine
+                Learning for
                 Autonomous Driving
             </h1>
         </div>
@@ -25,16 +25,17 @@
                 What is Machine Learning?
             </div>
             <div id="right1">
-                Machine Learning is the automatic learning process of machines.
-                </br>
-                To obtain a Machine Learning model it is mandatory for us to pocess 3 key resources:
+                <p>Machine Learning is the automatic learning process of machines.
+                    </br>
+                    The process is to train a model with data and get a trained model.
+                </p>
 
-                <b>MODEL + DATASET + METRICS</b>
+                <img style="width: 45vw;" src="img/machine_learn.png">
             </div>
         </div>
         <div class="section" id="section2">
             <div id="left2">
-                <p style="font-size:2em;"><b>Strategy</b></p>
+                <p style="font-size:2vw;"><b>Strategy</b></p>
                 <p> For many years, researchers have been using a model-centric strategy
                     when approaching machine learning, this is, they have been focusing on building models
                     (algorithms).</br>The better the model, the better the result.</br></br>
@@ -47,7 +48,7 @@
         </div>
         <div class="section" id="section2">
             <div id="left2">
-                <p style="font-size:2em;">
+                <p style="font-size:2vw;">
                     <b>Data-Centric!</b>
                 </p>
                 <p>With this strategy, we choose an already existing, good, model and then focus on enhancing the
@@ -58,12 +59,99 @@
             <div id="right2">
             </div>
         </div>
+        <div class="section" id="section3">
+            <p style="font-size:3vw;">
+                <b>Trying to improve data quality by using synthetic data</b>
+            </p>
+            <P style="font-size: 2vw;color: white;">
+                Our premise is to prove that tha synthetic dataset is better than the original
+            </P>
+            <img style="width:50vw;margin-top:6vw;" src="img/synt_vs_raw.png">
+        </div>
+
+        <div class="section" id="section_real_vs_sim">
+            <p style="font-size:2vw;">
+                <b>Real environment</b>
+            </p>
+            <img style="width:45vw;margin-top:2vw;" src="img/Imagem_real.png">
+
+            <p style="font-size:2vw;margin-top: 4vw;">
+                <b>Our simulation environment</b>
+            </p>
+            <img style="width:45vw;margin-top:2vw;" src="img/Imagem_sim.png">
+        </div>
+
+        <div class="section" id="section_process">
+            <p style="font-size:2vw;">
+                <b>Used datasets</b>
+            </p>
+            <img style="width:55vw;margin-top:6vw;" src="img/Imagem_all_datasets.png">
+        </div>
+
+        <div class="section" id="section_testing">
+            <p style="font-size:2vw;">
+                <b>Testing the quality of the synthetic dataset by comparison of trained models</b>
+            </p>
+            <img style="width:45vw;margin-top:6vw;" src="img/Imagem_testing.png">
+        </div>
+
+        <div class="section" id="section_get_results">
+            <p style="font-size:2vw;">
+                <b>Obtaining results</b>
+            </p>
+            <img style="width:60vw;margin-top:4vw;" src="img/Imagem_get_results.png">
+        </div>
+
+        <div class="section" id="section_understanding">
+            <p style="font-size:2vw;">
+                <b>Understanding results</b>
+            </p>
+            <img style="width:65vw;margin-top:6vw;" src="img/Imagem_iou.png">
+        </div>
+
+        <div class="section" id="section_dif">
+            <p style="font-size:2vw;">
+                <b>Categories of car validation</b>
+            </p>
+            <p style="color: white; font-size:1vw;margin-top:5vw;">Easy, Medium and Hard, based on values of </br>
+                Occlusion(percentage of car that is hidden by another object), Truncation(percentage of car that is
+                hidden by
+                point cloud
+                limits),
+                Height of bounding box(how far the car is)
+            </p>
+            <img style="width:55vw;margin-top:1vw;" src="img/Imagemeasy_med_hard.png">
+        </div>
+
+        <div class="section" id="section_results">
+            <p style="font-size:2vw;">
+                <b>Validation results</b>
+            </p>
+            <p style="color: white; font-size:1.5vw;margin-top:4vw;">
+                In comparison with the raw dataset.
+            </p>
+            <img style="width:65vw;margin-top:1vw;" src="img/Imagem_results.png">
+        </div>
+
+        <div class="section" id="section_conclusion">
+            <p style="font-size:3vw;">
+                <b>Conclusion</b>
+            </p>
+            <p style="color: white; font-size:1.5vw;margin-top:3vw;">
+                With the previous results, we can conclude that our synthetic datasets (v1 and v2) are better than the
+                raw dataset, showing that this process is promising for improving
+                object detection models' quality for autonomous driving.
+            </p>
+        </div>
+
         <div class="section" id="section4">
             <div id="left4">
-                <p style="font-size:2em;">
+                <p style="font-size:2vw;">
                     <b>Tools</b>
                 </p>
                 <p style="text-align: left;">
+                    Simulation Environment: <a>GTA V</a></br>
+                    Tool to capture point clouds: <a href="https://arxiv.org/abs/1905.00160">PreSIL</a></br>
                     Sensor: <a href="https://en.wikipedia.org/wiki/Lidar">LiDAR</a></br>
                     Data: <a href="https://en.wikipedia.org/wiki/Point_cloud">Point Clouds</a></br>
                     Model: <a href="https://arxiv.org/abs/1812.05784">Point Pillars</a></br>
@@ -75,37 +163,6 @@
             <div id="right4">
                 <img src="img/point_cloud.jpg" style="width: 100%;"></br>
                 <p>(Pointcloud taken from a LIDAR)</p>
-            </div>
-        </div>
-        <div class="section" id="section5">
-            <div id="top5">
-                <p style="font-size:2em;">
-                    <b>Datasets</b>
-                </p>
-            </div>
-            <div id="bottom5">
-                <div id="left5">
-                    <div id="left5-top">
-                        <img src="img/original-data.png" style="max-height: 100%;">
-                    </div>
-                    <div id="left5-bottom">
-                        <p style="font-size:1.2em;">
-                            <b>Augmented</b> Dataset
-                        </p></br>
-                        Dataset made of several, different, synthetic scenarios created from original data
-                    </div>
-                </div>
-                <div id="right5">
-                    <div id="right5-top">
-                        <p style="font-size:1.2em;">
-                            <b>Original</b> Dataset
-                        </p></br>
-                        Data acquired from LiDARs, cameras and other sensors and translated to point clouds
-                    </div>
-                    <div id="right5-bottom">
-                        <img src="img/augmented.png" style="max-height: 100%;">
-                    </div>
-                </div>
             </div>
         </div>
         <div class="section" id="section6">
@@ -140,7 +197,7 @@
                         Student
                     </div>
                     <div id="name_cards">
-                        <img src="img/ava.png">
+                        <img src="img/leonardo.png">
                         <b>Leonardo Freitas</b>
                         Student
                     </div>
@@ -160,7 +217,9 @@
             autoScrolling: true,
             scrollHorizontally: true,
             navigation: true,
-            navigationTooltips: ['Home', 'Intro', 'Strategy', 'Data-Centric', 'Tools', 'Datasets', 'Team'],
+            navigationTooltips: ['Home', 'Intro', 'Strategy', 'Data-Centric', 'Syntetic vs Raw',
+                'Simulation environment', 'Datasets', 'Trained models', 'Obtaining results', 'Understanding results',
+                'Validation categories', 'Results', 'Conclusion', 'Tools', 'Team'],
             showActiveTooltip: true,
             scrollingSpeed: 1000,
             css3: false

@@ -52,12 +52,14 @@ h1 {
 #section0 {
     background-image: url(../img/net_dark.jpg);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 18vw;
 }
 
 #section0 h1 {
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+    font-size: 5vw;
 }
 
 #section1 {
@@ -75,8 +77,8 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 10vh;
-    width: 50%;
-    font-size: 3em;
+    width: 35%;
+    font-size: 3vw;
     height: 100vh;
     background-color: rgb(0, 155, 153);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -87,10 +89,10 @@ h1 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 50%;
-    font-size: 1.5em;
+    width: 65%;
+    font-size: 1.5vw;
     height: 100vh;
-    padding: 10vh;
+    padding: 7vw;
     background-color: black;
 
     box-shadow: -2px -2px 15px 0px #000000;
@@ -104,7 +106,7 @@ h1 {
 }
 
 #left2 {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -122,7 +124,7 @@ h1 {
 }
 
 #left4 {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -142,6 +144,87 @@ h1 {
     width: 60%;
     padding: 10vh;
     color: white;
+}
+
+#section3 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_real_vs_sim{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 6vw;
+}
+
+#section_process {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_testing {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_get_results {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_results {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_understanding {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
+}
+
+#section_conclusion {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 6vw;
+}
+
+#section_dif {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 6vw;
 }
 
 #section4 {
@@ -244,7 +327,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1em;
+    font-size: 1.3vw;
 }
 
 #sec6_imgs {
